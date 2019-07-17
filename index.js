@@ -31,7 +31,7 @@ repos
       git init
       git add .
       git commit -m "init"
-      git add import git@github.com:tolicodes/${repo}.git
+      git remote add import git@github.com:tolicodes/${repo}.git
       git push import master
     `);
 
